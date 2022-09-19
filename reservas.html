@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservas</title>
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./Imagenes/logooficial.PNG" alt="">
+            </div>
+            <div id="header">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./restaurantes/">Restaurantes</a>
+                            <ul>
+                                <li><a href="./restaurantes/elantojo.html">El antojo</a></li>
+                                <li><a href="./restaurantes/perezh.html">Perez-h</a></li>
+                                <li><a href="./restaurantes/urbanococina.html">Urbano Cocina</a></li>
+                                <li><a href="./restaurantes/filosyfuegos.html">Filos y Fuegos</a></li>
+                                <li><a href="./restaurantes/jola.html">Jola</a></li>
+                                <li><a href="./restaurantes/ribsalrio.html">Ribs al rio</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./menus.html">Menus</a>
+                            <ul>
+                                <li><a href="./restaurantes/elantojo.html">Milanesas</a></li>
+                                <li><a href="./restaurantes/perezh.html">Hamburguesas</a></li>
+                                <li><a href="./restaurantes/ribsalrio.html">Carne</a></li>
+                                <li><a href="./restaurantes/urbanococina.html">Tacos</a></li>
+                                <li><a href="./restaurantes/jola.html">Meriendas</a></li>
+                                <li><a href="./restaurantes/filosyfuegos.html">Sushi</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./reservas.html">Reservas</a></li>
+                        <li><a href="./delivery.html">Delivery</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>   
+       </header>
+       <br>
+       <br>
+        <main id="main">
+            <h1>Reserva donde a vos te gusta</h1>
+        </main>
+        <br>
+        <br>
+        <br>
+        <form action="enviar.php" method="" enctype=""><!-- envio de datos -->
+        <div class="titulos">
+         <label for="Nombre">Nombre y Apellido</label>
+         <input type="text" id="Nombre y Apellido" placeholder="Ingrese su nombre y apellido" required><!-- required es campo obligatorio -->
+        </div>
+        <div class="titulos">
+         <label for="mail">Email</label>
+         <input type="mail" id="mail" name="mail" required>
+        </div>
+        <div class="titulos">
+         <label for="Cantidad de personas">Cantidad de personas</label>
+         <input type="Cantidad de personas" id="Cantidad de personas" name="Cantidad de personas" required>
+        </div>
+        <div class="titulos">
+         <input type="checkbox" name="opciones" id="aceptar" required>Acepto termino y condiciones
+         <input type="checkbox" name="opciones" id="news"> Recibo notificaciones
+        </div class="titulo">
+            Elija un Restaurante
+        <div>
+           <select name="" id="">
+             <label for="Restaurantes">Restaurante</label>
+             <option value="1">El antojo</option>
+             <option value="2">Ribs al rio</option>
+             <option value="3">Jola</option>
+             <option value="4">Filos y Fuegos</option>
+             <option value="5">Perez-H</option>
+             <option value="6">Urbano Cocina</option>
+           </select>
+        </div>     
+        <div>   
+         <input type="submit" value="Enviar ahora"><!-- enviar el formulario -->
+         <input type="Reset" value="Borrar todo">
+        </div>
+        <footer id="footer">
+         <p>Somos Mil sabores la comida en tu plato</p>
+        </footer>
+    </body>
+</html>
