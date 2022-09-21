@@ -77,11 +77,20 @@ ul, ol {
 }
 
 #Imagenes img {
-    width: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    max-width: 30%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.conteiner_img {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
 }
 
 .subtitulo {
