@@ -76,10 +76,17 @@ ul, ol {
     font-size: large;
 }
 
+.flex {
+   height: 100%;
+   display: flex;
+   padding: 10px;
+   gap: 20px;   
+}
 
 
 .imagen {
     width: 350px;
+    height: auto;
 }
 
 #footer {
