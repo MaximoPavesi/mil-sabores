@@ -69,13 +69,6 @@ ul, ol {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.titulos {
-    display: flex;
-    justify-content: start;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-}
-
 .flex {
    height: 100%;
    display: flex;
