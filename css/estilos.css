@@ -80,6 +80,9 @@ img.class-img-top{
     width:100px
 }
 
+img {
+    width: 100px;
+}
 
 #footer {
     display: flex;
