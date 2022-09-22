@@ -81,24 +81,6 @@ img.class-img-top{
 }
 
 
-
-.conteiner_img {
-    flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    margin: 10px;
-}
-
-.subtitulo {
-    display: flex;
-    justify-content: start;
-    margin-left: 50px;
-}
-
 #footer {
     display: flex;
     justify-content: center;
