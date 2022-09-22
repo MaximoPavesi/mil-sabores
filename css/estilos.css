@@ -61,6 +61,45 @@ ul, ol {
     background-position: center;
     margin: 20px 20px;
     background-color: #9C978C;
+    font-size: 0;
+    line-height: 1.5;
+}
+
+#main div {
+    display: block;
+    animation: animacion2;
+}
+
+#main h1 {
+    font-size: 5rem;
+    display: inline-block;
+    animation: animacion 3s ;
+}
+
+@keyframes animacion2 {
+    0% {
+        color: white;
+        background-color: #C76C30;
+        transform: translate(-30%, 0);
+    }
+    
+    50% {
+        color: black;
+        background-color: #C76C30;
+    }
+}
+
+@keyframes animacion {
+    0% {
+        transform: translate(-30%, 0);
+        color: black;
+    }
+    50% {
+        text-shadow: 25px rgba(0, 0, 0, 0.75)
+    }
+    100% {
+        color: black;
+    }
 }
 
 .titulo {
