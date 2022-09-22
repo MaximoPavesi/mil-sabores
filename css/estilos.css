@@ -80,11 +80,7 @@ img.class-img-top{
     width:100px
 }
 
-#Imagenes img {
-    max-width: 30%;
-    height: auto;
-    border: 2px solid black;
-}
+
 
 .conteiner_img {
     flex-basis: 31%;
