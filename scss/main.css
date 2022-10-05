@@ -11,4 +11,135 @@ body {
 .logo img {
   width: 150px;
   height: 150px;
+}
+
+ul ol {
+  list-style: none;
+}
+
+.nav li a {
+  background-color: #FEFEDF;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nav li a:hover {
+  background-color: #C80225;
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
+}
+
+#main {
+  color: black;
+  background-position: center;
+  margin: 20px 20px;
+  background-color: #9C978C;
+  font-size: 0;
+  line-height: 1.5;
+}
+#main div {
+  display: block;
+  -webkit-animation: animacion2;
+          animation: animacion2;
+}
+#main h1 {
+  font-size: 5rem;
+  display: inline-block;
+  -webkit-animation: animacion 3s;
+          animation: animacion 3s;
+}
+
+@-webkit-keyframes animacion2 {
+  0% {
+    color: white;
+    background-color: #C76C30;
+    transform: translate(-30%, 0);
+  }
+  50% {
+    color: black;
+    background-color: #C76C30;
+  }
+}
+
+@keyframes animacion2 {
+  0% {
+    color: white;
+    background-color: #C76C30;
+    transform: translate(-30%, 0);
+  }
+  50% {
+    color: black;
+    background-color: #C76C30;
+  }
+}
+@-webkit-keyframes animacion {
+  0% {
+    transform: translate(-30%, 0);
+    color: black;
+  }
+  50% {
+    text-shadow: 25px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes animacion {
+  0% {
+    transform: translate(-30%, 0);
+    color: black;
+  }
+  50% {
+    text-shadow: 25px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    color: black;
+  }
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.flex {
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
+.imagen {
+  width: 350px;
+  height: auto;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  background-color: #C76C30;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
