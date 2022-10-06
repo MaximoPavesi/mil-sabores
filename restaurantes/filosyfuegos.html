@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Filos y fuegos</title>
         <link rel="stylesheet" href="../css/estilosrestaurantes.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+         <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -78,55 +82,88 @@
         </section> 
         <section>
             <h2 class="titulo">Principales</h2>
-            <div id="Imagenes">
-                <img src="../Imagenes/principal1.jpg" alt="">
-                <p class="subtitulo">Ramen Chashu: Caldo dashi y chashu con huevo cocido a 6 minutos, bondiola, hongos, verdeo y sriracha.</p>
-                <p class="subtitulo">Ramen de Langostinos: Caldo dashi, fumet de langostinos, langostinos hervidos, huevo cocido a 6 minutos, nira y hongos en teriyaki.</p>
-                <p class="subtitulo">Ramen curry: Dashi, curry, bondiola, kimchi, hongos y tamago.</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/principal2.jpg" alt="YAKIMESHI">
-                <p class="subtitulo">Arroz con verduras, huevo, verdeo</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/principal3.jpg" alt="PEZCA DEL DIA A LA PLANCHA">
-                <p class="subtitulo">Con verduras al curry y arroz.</p>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../Imagenes/principal1.jpg" class="card-img-top" alt="Ramen">
+                    <div class="card-body">
+                        <h5 class="card-title">Ramen a eleccion</h5>
+                        <p class="card-text">Ramen Chashu: Caldo dashi y chashu con huevo cocido a 6 minutos, bondiola, hongos, verdeo y sriracha.</p>
+                        <p class="card-text">Ramen de Langostinos: Caldo dashi, fumet de langostinos, langostinos hervidos, huevo cocido a 6 minutos, nira y hongos en teriyaki.</p>
+                        <p class="card-text">Ramen curry: Dashi, curry, bondiola, kimchi, hongos y tamago.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/principal2.jpg" class="card-img-top" alt="YAKIMESHI">
+                    <div class="card-body">
+                        <h5 class="card-title">Arroz asiatico</h5>
+                        <p class="card-text">Arroz con verduras, huevo, verdeo</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/principal3.jpg" class="card-img-top" alt="PEZCA DEL DIA A LA PLANCHA">
+                    <div class="card-body">
+                        <h5 class="card-title">Pezca del dia a la plancha</h5>
+                        <p class="card-text">Pezcado del dia con verduras al curry y arroz.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
             </div>
         </section>
         <section>
             <h2 class="titulo">Rolls</h2>
-            <div id="Imagenes">
-                <img src="../Imagenes/filobox1.jpg" alt="MAKIS">
-                <p class="subtitulo">9 pzas: Arroz y alga por fuera relleno con Sake, Furay, Chapelco y Brandsen 805</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/filobox2.jpg" alt="ROLLS CLASICOS 9 PIEZAS">
-                <p class="subtitulo">Philadelphia: Salmon y Cream Cheesse.
-                    New York: Salmon, pepino y palta.
-                    NY con Phila: Salmon, cream cheese y palta.
-                    Tuna: Crema de atun y verdeo.
-                    Buenos Aires en llamas: Langostinos panko, cream cheese y palta cubierto con salmon sellado, salsa teriyaki y sriracha.
-                    Smoked: Cream cheese, palta y salmon ahumado.
-                    Nofx: Langostinos furay, palta y pepino cubierto con salmon sellado, salsa acevichada y batatitas crocantes.</p>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../Imagenes/filobox1.jpg" class="card-img-top" alt="MAKIS">
+                    <div class="card-body">
+                        <h5 class="card-title">Rolls</h5>
+                        <p class="card-text">9 pzas: Arroz y alga por fuera relleno con Sake, Furay, Chapelco y Brandsen 805.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
+                <div class="card">
+                    <img src="../Imagenes/filobox2.jpg" class="card-img-top" alt="YAKIMESHI">
+                    <div class="card-body">
+                        <h5 class="card-title">Rolls especiales</h5>
+                        <p class="card-text">Philadelphia: Salmon y Cream Cheesse.</p>
+                        <p class="card-text">New York: Salmon, pepino y palta.</p>
+                        <p class="card-text">NY con Phila: Salmon, cream cheese y palta.</p>
+                        <p class="card-text">Tuna: Crema de atun y verdeo.</p>
+                        <p class="card-text">Buenos Aires en llamas: Langostinos panko, cream cheese y palta cubierto con salmon sellado, salsa teriyaki y sriracha.</p>
+                        <p class="card-text">Smoked: Cream cheese, palta y salmon ahumado.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
             <h2 class="titulo">Filos box</h2>
-            <div id="Imagenes">
-                <img src="../Imagenes/filobox3.jpg" alt="14 piezas">
-                <p class="subtitulo">5 phila, 5 NY, 2 nigiri, 2 sashimi.</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/filobox4.jpg" alt="20 piezas">
-                <p class="subtitulo">5 Phila, 5 NY, 5 Hosomaki, 3 nigiri, 2 sashimi.</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/filobox5.avif" alt="30 piezas">
-                <p class="subtitulo">9 Phila, 9 NY, 5 Hosomaki, 4 nigiri, 3 sashimi.</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/filobox6.jpg" alt="40 piezas">
-                <p class="subtitulo">9 phila, 9 NY, 9 Ny con phila, 5 Hosomaki, 4 nigiri, 4 sashimi.</p>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../Imagenes/filobox3.jpg" class="card-img-top" alt="14 piezas">
+                    <div class="card-body">
+                        <h5 class="card-title">Caja de sushi (14 piezas)</h5>
+                        <p class="card-text">5 phila, 5 NY, 2 nigiri, 2 sashimi.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/filobox4.jpg" class="card-img-top" alt="20 piezas">
+                    <div class="card-body">
+                        <h5 class="card-title">Caja de sushi (20 piezas)</h5>
+                        <p class="card-text">5 Phila, 5 NY, 5 Hosomaki, 3 nigiri, 2 sashimi.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/filobox5.avif" class="card-img-top" alt="30 piezas">
+                    <div class="card-body">
+                        <h5 class="card-title">Caja de sushi (30 piezas)</h5>
+                        <p class="card-text">9 Phila, 9 NY, 5 Hosomaki, 4 nigiri, 3 sashimi.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
             </div>
         </section>
         <footer id="footer">
