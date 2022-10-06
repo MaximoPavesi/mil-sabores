@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jola</title>
         <link rel="stylesheet" href="../css/estilosrestaurantes.css">
+         <!-- CSS only -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+         <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -43,54 +47,81 @@
                 </nav>
             </div>
         </header>
-        <br><br>
        <main id="main">
            <h1>Para disfrutar en cualquier momento de tu dia</h1>
+           <div>
+            <a href="./delivery.html" class="btn btn-primary">Delivery</a>
+           </div>
        </main>
-       <br><br>
         <section>
             <h2 class="titulo">Desayunos</h2>
-            <div id="Imagenes">
-                <img src="../Imagenes/desayuno1.jpg" alt="">
-                <p class="subtitulo">Un cafe con medialunas y un jugo exprimido de naranja</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/desayuno2.webp" alt="">
-                <p class="subtitulo">Tostado de jamon y queso con jugo de naranja</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/desayuno3.jpg" alt="">
-                <p class="subtitulo">Cafe submario con torta a eleccion</p>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../Imagenes/desayuno1.jpg" class="card-img-top" alt="desayuno porteño">
+                    <div class="card-body">
+                        <h5 class="card-title">Desayuno clasico</h5>
+                        <p class="card-text">Un cafe con medialunas y un jugo exprimido de naranja</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/desayuno2.webp" class="card-img-top" alt="tostado JYQ">
+                    <div class="card-body">
+                        <h5 class="card-title">Desayuno con tostado</h5>
+                        <p class="card-text">Tostado de jamon y queso con jugo de naranja</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/desayuno3.jpg" class="card-img-top" alt="cafe con torta">
+                    <div class="card-body">
+                        <h5 class="card-title">Cafe con torta</h5>
+                        <p class="card-text">Cafe submario con torta a eleccion</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
             </div>
         </section>
-        <br><br>
         <section>
             <h2 class="titulo">Almuerzo</h2>
-            <div id="Imagenes">
-                <img src="../Imagenes/almuerzo1.jpg" alt="Bife de chorizo">
-                <p class="subtitulo">Bife de chorizo con guarnicion a eleccion</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/almuerzo2.jpg" alt="Milanesa napolitana">
-                <p class="subtitulo">Milanesa napolitana con guarnicion a eleccion</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/almuerzo3.jpg" alt="Bondiola braseada">
-                <p class="subtitulo">Bondiola braseada con salsa demi acompañadas con batatas al horno</p>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../Imagenes/almuerzo1.jpg" class="card-img-top" alt="Bife de chorizo">
+                    <div class="card-body">
+                        <h5 class="card-title">Bife de chorizo</h5>
+                        <p class="card-text">Bife de chorizo con guarnicion a eleccion</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/almuerzo2.jpg" class="card-img-top" alt="Milanesa napolitana">
+                    <div class="card-body">
+                        <h5 class="card-title">Milanesa napolitana</h5>
+                        <p class="card-text">Milanesa napolitana con guarnicion a eleccion</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/almuerzo3.jpg" class="card-img-top" alt="Bondiola braseada">
+                    <div class="card-body">
+                        <h5 class="card-title">Bondiola braseada con salsa</h5>
+                        <p class="card-text">Bondiola braseada con salsa demi acompañadas con batatas al horno</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
             </div>
         </section>
-        <br>
+        <section>
+            <div class="Locales">
+              <h5 class="titulo">Nuestro local</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.716033395105!2d-58.55284018519681!3d-34.560744562731735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb75931720619%3A0x38eaf32f43fd97aa!2zSm9sw6E!5e0!3m2!1ses-419!2sar!4v1665068033608!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
         <footer id="footer">
             <div>
                 <ul>
                  <li><a href="https://jola-bar.business.site/">Pagina web</a></li>
                 </ul>
-             </div>
-            <h2>Local</h2>
-            <div>
-             <ul>
-                 <li> <a href="https://www.google.com/maps/place/Jol%C3%A1/data=!3m1!4b1!4m2!3m1!1s0x95bcb75931720619:0x38eaf32f43fd97aa">Villa Ballester</a></li>
-             </ul>
             </div>
         </footer>
     </body>
