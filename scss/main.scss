@@ -86,6 +86,13 @@ body {
     }
 }
 
+.Colaboraciones {
+    iframe {
+        margin: 0 auto;
+        display: block;
+        gap: 20px;
+    }
+}
 #footer {
     display: flex;
     justify-content: center;

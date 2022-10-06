@@ -67,13 +67,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.flex {
-   height: 100%;
-   display: flex;
-   padding: 10px;
-   gap: 20px;   
-}
-
 
 .imagen {
     width: 350px;
