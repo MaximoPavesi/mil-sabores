@@ -13,39 +13,45 @@
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img src="../Imagenes/logooficial.PNG" alt="logo">
-            </div>
-            <div id="header">
-                <nav>
-                    <ul class="nav">
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="./Links Mil sabores.html">Restaurantes</a>
-                       <ul>
-                           <li><a href="../restaurantes/elantojo.html">El antojo</a></li>
-                           <li><a href="../restaurantes/perezh.html">Perez-h</a></li>
-                           <li><a href="../restaurantes/urbanococina.html">Urbano Cocina</a></li>
-                           <li><a href="..//restaurantes/filosyfuegos.html">Filos y Fuegos</a></li>
-                           <li><a href="../restaurantes/jola.html">Jola</a></li>
-                           <li><a href="../restaurantes/ribsalrio.html">Ribs al rio</a></li>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand logo" href="../index.html"><img src="../Imagenes/logooficial.PNG" alt="LOGO" class="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../reservas.html">Reservas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../delivery.html">Delivery</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Restaurantes
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../restaurantes/elantojo.html">El antojo</a></li>
+                          <li><a class="dropdown-item" href="../restaurantes/perezh.html">Perez-h</a></li>
+                          <li><a class="dropdown-item" href="../restaurantes/jola.html">Jolá</a></li>
+                          <li><a class="dropdown-item" href="../restaurantes/urbanococina.html">Urbanococina</a></li>
+                          <li><a class="dropdown-item" href="../restaurantes/filosyfuegos.html">Filos y fuegos</a></li>
+                          <li><a class="dropdown-item" href="../restaurantes/ribsalrio.html">Ribs al rio</a></li>
+                          <li><hr class="dropdown-divider"></li>
                         </ul>
-                        </li>
-                        <li><a href="../menus.html">Menus</a>
-                    <ul>
-                        <li><a href="../restaurantes/elantojo.html">Milanesas</a></li>
-                        <li><a href="../restaurantes/perezh.html">Hamburguesas</a></li>
-                        <li><a href="../restaurantes/ribsalrio.html">Carne</a></li>
-                        <li><a href="../restaurantes/urbanococina.html">Tacos</a></li>
-                        <li><a href="../restaurantes/jola.html">Meriendas</a></li>
-                        <li><a href="../restaurantes/filosyfuegos.html">Sushi</a></li>
+                      </li>
                     </ul>
-                        </li>
-                        <li><a href="../reservas.html">Reservas</a></li>
-                        <li><a href="../delivery.html">Delivery</a></li>
-                    
-                    </ul>
-                </nav>
-            </div>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </header>
        <main id="main">
            <h1>De Asia al mundo</h1>
