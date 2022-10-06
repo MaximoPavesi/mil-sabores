@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ribs al rio</title>
         <link rel="stylesheet" href="../css/estilosrestaurantes.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+         <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -42,39 +46,58 @@
                 </nav>
             </div>
         </header>
-        <br><br>
        <main id="main">
            <h1>Costillares americanos</h1>
        </main>
-       <br><br>
         <section>
             <h2 class="titulo">Ribs</h2>
-            <div id="Imagenes">
-                <img src="../Imagenes/ribs1.jpg" alt="Baby Back Ribs">
-                <p class="subtitulo">Un rack de tiernas Baby Back Ribs de cerdo ahumadas 12 hs, pintadas con nuestra salsa BBQ casera, acompañadas de una ensaladita coleslaw y papas fritas</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/ribs2.jpg" alt="Spare Ribs">
-                <p class="subtitulo">Costillar de cerdo con salsa BBQ acompañadas de una ensaladita coleslaw y papas fritas </p>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../Imagenes/rib1.jpg" class="card-img-top" alt="Baby Back Ribs">
+                    <div class="card-body">
+                        <h5 class="card-title">Baby Back Ribs</h5>
+                        <p class="card-text">Un rack de tiernas Baby Back Ribs de cerdo ahumadas 12 hs, pintadas con nuestra salsa BBQ casera, acompañadas de una ensaladita coleslaw y papas fritas</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/rib2.jpg" class="card-img-top" alt="Spare Ribs">
+                    <div class="card-body">
+                        <h5 class="card-title">Spare Ribs</h5>
+                        <p class="card-text">Costillar de cerdo con salsa BBQ acompañadas de una ensaladita coleslaw y papas fritas</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
             </div>
         </section>
-        <br><br>
         <section>
             <h2 class="titulo">Sandwich</h2>
-            <div id="Imagenes">
-                <img src="../Imagenes/sandwich1.jpg" alt="Smoked Beef Extreme">
-                <p class="subtitulo">Sandwich de 200gr de ternera ahumada y desmechada, cuadruple queso, bacon y huevo frito, servido en pan de papa</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/sandwich2.jpg" alt="Pulled Pork Sandwich">
-                <p class="subtitulo">Sandwich de bondiola ahumada y desmechada con nuestra salsa BBQ casera y pepinillos servido en pan "nube" de papa. (La guarnición se pide por separado)</p>
-            </div>
-            <div id="Imagenes">
-                <img src="../Imagenes/sandwich1.jpg" alt="Smoked Beef Sandwich">
-                <p class="subtitulo">Sandwich de 180 gramos de carne de ternera ahumada y desmechada, servida en pan de papa con queso, cebolla y nuestra salsa secreta. (La guarnición se pide por separado)</p>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../Imagenes/sandwich1.jpg" class="card-img-top" alt="Smoked Beef Extreme">
+                    <div class="card-body">
+                        <h5 class="card-title">Smoked Beef Extreme</h5>
+                        <p class="card-text">Sandwich de 200gr de ternera ahumada y desmechada, cuadruple queso, bacon y huevo frito, servido en pan de papa</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/sandwich2.jpg" class="card-img-top" alt="Pulled Pork Sandwich">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulled Pork Sandwich</h5>
+                        <p class="card-text">Sandwich de bondiola ahumada y desmechada con nuestra salsa BBQ casera y pepinillos servido en pan "nube" de papa. (La guarnición se pide por separado)</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
             </div>
         </section>
-        <br>
+        <section>
+            <div class="Locales">
+                <h5 class="titulo">Nuestro Local</h5>
+                <h3 class="titulo">Patio Costanera Norte</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3614621484517!2d-58.4345504851973!3d-34.544402361868165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5b6c16a76a7%3A0x90573cddee61a668!2sRibs%20al%20r%C3%ADo%20-%20Patio%20Costanera%20Norte!5e0!3m2!1ses-419!2sar!4v1665070946811!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
         <footer id="footer">
             <div>
                 <ul>
@@ -82,12 +105,6 @@
                  <li><a href="https://twitter.com/ribsalrio">Twitter</a></li>
                 </ul>
              </div>
-            <h2>Local</h2>
-            <div>
-             <ul>
-                 <li> <a href="https://www.google.com.ar/maps/place/Ribs+al+r%C3%ADo+-+Patio+Costanera+Norte/@-34.5444024,-58.4345505,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5b6c16a76a7:0x90573cddee61a668!8m2!3d-34.5444068!4d-58.4323618?hl=es-419">Patio Costanera Norte</a></li>
-             </ul>
-            </div>
         </footer>
     </body>
 </html>
