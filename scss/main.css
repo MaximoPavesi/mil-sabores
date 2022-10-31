@@ -21,26 +21,6 @@ body {
   font-size: 0;
   line-height: 1.5;
 }
-.button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #F08328;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-.button:hover {background-color: #F03B10}
-
-.button:active {
-  background-color: #F03B10;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
 #main div {
   display: block;
   -webkit-animation: animacion2;
@@ -51,6 +31,29 @@ body {
   display: inline-block;
   -webkit-animation: animacion 3s;
           animation: animacion 3s;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #F07E22;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #F04E1B;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 @-webkit-keyframes animacion2 {
